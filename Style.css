@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #00ff55;
+}
+
+.banner {
+    background: url('./Img/3-dicas-para-aproveitar-melhor-o-espaco-da-academia-1024x681.jpg') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-texto h1 {
+    font-size: 2.5em;
+    color: #00ff55;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.secao {
+    padding: 50px 20px;
+    text-align: center;
+    
+}
+
+.secao h2 {
+    color: #00ff55;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    border: 1px solid #00ff55;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #00ff55;
+    margin-bottom: 10px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #00ff55;
+}    
+
+.secao p:hover {
+    color: #00ff55;
+}
+
+.social a {
+    margin: 0 10px;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.social a:hover {
+    text-decoration: none;
+    color: #00ff55;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #ffffff;
+}
+.footer:hover {
+    color: #00ff55;
+}
